@@ -38,6 +38,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -77,12 +78,13 @@
             // About_Button
             // 
             this.About_Button.Name = "About_Button";
-            this.About_Button.Size = new System.Drawing.Size(180, 22);
+            this.About_Button.Size = new System.Drawing.Size(107, 22);
             this.About_Button.Text = "About";
             this.About_Button.Click += new System.EventHandler(this.About_Button_Click);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Location = new System.Drawing.Point(12, 39);
@@ -129,6 +131,16 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "label1";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(113, 22);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(94, 52);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -159,5 +171,6 @@
         private Label label1;
         private ToolStripSplitButton Help_Button;
         private ToolStripMenuItem About_Button;
+        private Button button3;
     }
 }

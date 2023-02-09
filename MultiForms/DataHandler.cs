@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MultiForms
 {
-    internal class DataHandler
+    public abstract class DataHandler
     {
+        //public DateTime date;
+        public static DateTime zvoleneDatum;
+
     }
 }
