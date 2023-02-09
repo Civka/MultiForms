@@ -6,5 +6,10 @@ namespace MultiForms
         {
             InitializeComponent();
         }
+
+        private void About_Button_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("About me...");
+        }
     }
 }
